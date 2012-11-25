@@ -7,7 +7,7 @@ defmodule EllixApi do
     path = :elli_request.path(req)
     :error_logger.error_msg("~p", [req])
     :error_logger.error_msg("~p ~p", [request_method, path])
-    # why does this fail?
+    # why does this fail with curl localhost:3000
     'GET' = request_method
     handle(request_method, path, req)
   end
