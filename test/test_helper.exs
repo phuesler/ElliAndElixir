@@ -1,0 +1,2 @@
+Ellix.start
+ExUnit.start
